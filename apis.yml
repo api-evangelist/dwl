@@ -1,22 +1,73 @@
 aid: dwl
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dwl.png
 name: DWL
-description: DWL is a company surfaced as a portfolio company of insight-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'DWL Inc. was an enterprise software company founded in 1996 and headquartered
+  in Atlanta, Georgia, with significant engineering and operations in Toronto, Ontario.
+  DWL built customer data integration (CDI) middleware — its flagship product, DWL
+  Customer, was a real-time master data hub that consolidated fragmented customer records
+  from across banking, insurance, telecommunications, and retail systems into a single
+  authoritative view, and served that view back to operational applications through
+  a transaction-oriented services layer. Backed by Insight Venture Partners, AGF Investments,
+  Nationwide Mutual Capital, Royal Trust, and Stone Point Capital, DWL was acquired
+  by IBM in August 2005 to fill the CDI gap in IBM''s information-management stack.
+  DWL Customer was rebranded IBM WebSphere Customer Center and subsequently folded
+  into IBM InfoSphere Master Data Management. DWL has not operated as an independent
+  company for two decades, never published a public developer program or API, and the
+  dwl.com domain now redirects to ibm.com. This profile is retained as a historical
+  record; there is no API surface to enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/dwl/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - insight-partners
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-no-api-surface
+x-status: acquired
+x-acquired-by: ibm
+x-acquired-date: '2005-08-02'
+x-successor-product: IBM InfoSphere Master Data Management (via IBM WebSphere Customer
+  Center)
+x-successor-url: https://www.ibm.com/products/master-data-management
+x-domain-status: redirects-to-acquirer
+x-domain-note: 'Probed 2026-07-20 — dwl.com resolves to 199.46.34.76 but serves no TLS
+  vhost (SSL unrecognized name); http://dwl.com/ returns 200 after redirecting to
+  https://www.ibm.com/software. It is IBM-controlled residue of the 2005 acquisition,
+  not an operating DWL property, so it is deliberately not wired as a Website pointer
+  and no successor IBM URL is emitted as a scored link property.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Acquired
+- Defunct
+- Master Data Management
+- Customer Data Integration
+- Data Integration
+- Middleware
+- Enterprise Software
+- Financial Services
+- Insurance
 apis: []
+common: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
