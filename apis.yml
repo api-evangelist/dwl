@@ -45,7 +45,7 @@ x-domain-note: 'Probed 2026-07-20 — dwl.com resolves to 199.46.34.76 but serve
   https://www.ibm.com/software. It is IBM-controlled residue of the 2005 acquisition,
   not an operating DWL property, so it is deliberately not wired as a Website pointer
   and no successor IBM URL is emitted as a scored link property.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
