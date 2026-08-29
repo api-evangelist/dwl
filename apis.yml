@@ -38,6 +38,9 @@ description: 'DWL Inc. was an enterprise software company founded in 1996 and he
   dwl.com domain now redirects to ibm.com. This profile is retained as a historical
   record; there is no API surface to enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/dwl/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "DWL has not operated as an independent company for two decades, never published a public developer program or API, and the dwl.com domain now redirects to ibm.com."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
