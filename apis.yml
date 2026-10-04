@@ -67,7 +67,7 @@ tags:
 - Data Integration
 - Middleware
 - Enterprise Software
-- Financial-Services
+- Financial Services
 - Insurance
 tags_raw:
 - Company
@@ -80,6 +80,7 @@ tags_raw:
 - Enterprise Software
 - Financial Services
 - Insurance
+- Financial-Services
 apis: []
 common: []
 maintainers:
